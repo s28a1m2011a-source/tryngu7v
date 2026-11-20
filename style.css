@@ -1,0 +1,66 @@
+h1{
+    color: mediumorchid;
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+h2{
+    color:darkviolet;
+}
+input{
+    font-size: 1em;
+    border: 2px solid orchid;
+    margin-bottom: 10px;
+}
+
+input:hover{
+    border-color: fuchsia;
+
+}
+
+input:focus{
+    border-color: fuchsia;
+    outline: none;
+    box-shadow: 0  0  10px fuchsia;
+}
+button{
+    color:white;
+background-color:darkorchid;
+padding: 10px 16px;
+border-radius: 8px;
+border: none;
+cursor: pointer;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+
+#message{
+    color:orchid;
+    font-weight: bold;
+}
+
+.app{
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+gap: 15px;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items:center;
+}
+
+.form-box input {
+    width: 260px;
+    padding: 10px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
